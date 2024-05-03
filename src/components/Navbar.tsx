@@ -2,7 +2,7 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-    <div className='bg-primaryColor text-secondaryColor h-16 flex justify-evenly items-center'>
+    <div className='bg-thirdColor text-secondaryColor h-16 flex justify-evenly items-center'>
         <div>
             <h1>Kadek Krisna</h1>
         </div>

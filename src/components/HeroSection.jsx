@@ -3,7 +3,7 @@ import deknaImage from '../assets/images/dekna.png'
 
 const HeroSection = () => {
   return (
-    <div className='bg-primaryColor'>
+    <div className='bg-thirdColor'>
 
     <div className='flex items-center flex-col pt-[20%] md:ms-[20%] md:flex-row md:pt-0'>
 
