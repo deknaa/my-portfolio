@@ -40,8 +40,8 @@ const About = () => {
                 <a href="#"><img src={linkedin} alt="Linkedin" className='w-[45px]' /></a>
                 <a href="#" className='bg-secondaryColor text-primaryColor p-2 font-bold rounded-md'>Download CV</a>
               </div>
-              <div className='flex gap-16'>
-              <div className='text-white mt-16' id='tech_stack'>
+              <div className='flex gap-16 items-center'>
+              <div className='text-white mt-10' id='tech_stack'>
                 <h2 className='text-secondaryColor text-3xl font-bold'>My Skill</h2>
                 <div className='flex gap-6 mt-4'>
                   <img src={reactIcons} alt="" className='w-[45px]' />
@@ -50,7 +50,7 @@ const About = () => {
                   <img src={laravel} alt="" className='w-[45px]' />
                 </div>
               </div>
-              <div className='text-white mt-7'>
+              <div className='text-white'>
                 <h2 className='text-secondaryColor text-3xl font-bold mt-8'>Currently Learning</h2>
                 <div className='flex gap-6 mt-4'>
                   <img src={nextjs} alt="" className='w-[45px]' />
